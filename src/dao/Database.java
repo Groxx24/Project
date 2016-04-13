@@ -11,7 +11,7 @@ public class Database {
 		try
 		{
 		//String connectionURL = "jdbc:mysql://localhost:3306/workingbrain";
-		String connectionURL = "jdbc:mysql://localhost:3306/4EvenDB";
+		String connectionURL = "jdbc:mysql://127.7.185.2:3306/jbossas";
 		Connection connection = null;
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
 		connection = DriverManager.getConnection(connectionURL, "root", "");
